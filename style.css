@@ -120,6 +120,15 @@ img {
   width: 100%;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: var(--navy);
+}
+
 .btn,
 .btn-outline {
   display: inline-flex;
@@ -470,6 +479,10 @@ ul.clean {
   }
 
 }
+
+.menu-toggle {
+    display: block;
+  }
 
 @media (max-width: 640px) {
   .hero {
