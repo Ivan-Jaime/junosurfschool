@@ -451,6 +451,11 @@ ul.clean {
 }
 
 @media (max-width: 900px) {
+
+.menu-toggle {
+    display: block;
+  }
+
   .hero-grid,
   .split,
   .contact-box,
@@ -479,10 +484,6 @@ ul.clean {
   }
 
 }
-
-.menu-toggle {
-    display: block;
-  }
 
 @media (max-width: 640px) {
   .hero {
